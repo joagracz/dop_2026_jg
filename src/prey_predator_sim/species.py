@@ -23,7 +23,6 @@ class Creature:
             # 2. TODO: Change creature class to different one.
             return Creature(p_death=self.p_death, p_reproduce=self.p_reproduce)
 
-<<<<<<< HEAD
         return None
 
 class Probability:
@@ -98,6 +97,3 @@ class Predator(Creature):
         prob = self.p_death_hungry if self.hungry else self.p_death
         if random.random() < prob:
             self.alive = False
-=======
-        return None
->>>>>>> b43b1c784e04dc73893e0a06b91b1fb302585ae4
